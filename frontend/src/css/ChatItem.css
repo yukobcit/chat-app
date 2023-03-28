@@ -1,0 +1,18 @@
+.chat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  justify-content: space-between
+}
+
+.edit-mode input {
+  margin-right: 0.5rem;
+}
+
+.view-mode button {
+  margin-left: 0.5rem;
+}

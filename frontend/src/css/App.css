@@ -1,0 +1,25 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.chat {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.user-info {
+  margin: 10px;
+}
+
+.chat-list {
+  flex: 1;
+  padding: 10px;
+}
+
+.chat-window {
+  flex: 2;
+  padding: 10px;
+}

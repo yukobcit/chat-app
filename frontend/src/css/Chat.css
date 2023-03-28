@@ -1,0 +1,6 @@
+.chat-names{
+  display: flex ;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: space-between
+}

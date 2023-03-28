@@ -1,0 +1,81 @@
+.chat-bubble {
+    justify-content: flex-end;
+  }
+  
+  .chat-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat-message {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .message-content {
+    padding: 0.5rem 1rem;
+
+    font-weight: bold;
+    background-color: #EAEAEA;
+    color: #444444;
+  }
+  
+  .message-options {
+    display: flex;
+    margin-left: 1rem;
+  }
+  
+  .option-btn {
+    border: none;
+    background-color: transparent;
+    color: #666666;
+    font-weight: bold;
+    font-size: 0.8rem;
+    cursor: pointer;
+    margin-left: 0.5rem;
+  }
+  
+  .edit-btn {
+    color: #3490dc;
+  }
+  
+  .delete-btn {
+    color: #e3342f;
+  }
+  
+  .edit-message {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+  }
+  
+  .edit-input {
+    padding: 0.5rem 1rem;
+    border: 2px solid #3490dc;
+    border-radius: 9999px;
+    font-weight: bold;
+  }
+  
+  .edit-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 9999px;
+    background-color: #3490dc;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .cancel-btn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 9999px;
+    background-color: #e3342f;
+    color: #FFFFFF;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
